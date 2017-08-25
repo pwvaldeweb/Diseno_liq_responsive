@@ -3,9 +3,7 @@
     padding: 0;
 }
 body{
-    width: 80%;
-    max-width: 1000px;
-    margin: 0 auto;
+    
     font-family: 'Indie Flower', cursive;
     background-image: url(../img/bolsas-de-papel-verjurado.jpg); 
     background-repeat: no-repeat;
@@ -13,8 +11,9 @@ body{
     
 }
 .container{
-    width:80%;
-    max-width: 800px;
+    width: 80%;
+    max-width: 1000px;
+    margin: 0 auto;
     height: 1000px;    
 }
 h1{
@@ -53,10 +52,10 @@ h2{
 }
 @media print{
     .container .col1,.col2,.col3 {
-        color:gray;
+        color:darkgray;
     }
     h1, h2{
-        color:gray;
+        color:darkgray;
     }
     
 }
