@@ -7,15 +7,15 @@ body{
     max-width: 1000px;
     margin: 0 auto;
     font-family: 'Indie Flower', cursive;
-   
+    background-image: url(../img/bolsas-de-papel-verjurado.jpg); 
+    background-repeat: no-repeat;
+    background-size: cover;
     
 }
 .container{
     width:80%;
     max-width: 800px;
-    height: 1000px;
-    background-image: url(../img/bolsas-de-papel-verjurado.jpg); 
-    overflow:inherit;
+    height: 1000px;    
 }
 h1{
     text-align: center;
@@ -30,8 +30,7 @@ h2{
     float: left;
 }
 .col1{
-    width: 20%; 
-    margin-left: 20px;
+    width: 25%; 
 }
 .col2{
     width: 75%;
@@ -45,7 +44,6 @@ h2{
 
 @media (max-width:450px){
     body{
-        background-color: aqua;
         width: 90%;
     }
     .col3 li{
@@ -57,10 +55,8 @@ h2{
     .container .col1,.col2,.col3 {
         color:gray;
     }
-    h1{
+    h1, h2{
         color:gray;
     }
-    h2{
-        color:gray;
-    }
+    
 }
